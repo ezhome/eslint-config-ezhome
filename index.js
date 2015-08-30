@@ -58,7 +58,7 @@ module.exports = {
         "space-before-blocks": 2,
         "space-before-function-paren": [2, "never"],
         "space-in-parens": [2, "never"],
-        "spaced-comment": [2, "always"]
+        "spaced-comment": [2, "always"],
         "wrap-regex": 2
     }
 }
