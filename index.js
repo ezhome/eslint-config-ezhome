@@ -61,4 +61,4 @@ module.exports = {
         "spaced-comment": [2, "always"],
         "wrap-regex": 2
     }
-}
+};
