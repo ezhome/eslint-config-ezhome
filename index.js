@@ -40,7 +40,6 @@ module.exports = {
         "object-curly-spacing": [2, "never"],
         "quotes": [2, "double", "avoid-escape"],
         "radix": 2,
-        "react/jsx-closing-bracket-location": [2, {"location": "props-aligned"}],
         "react/jsx-curly-spacing": [2, "never", {"allowMultiline": false}],
         "react/jsx-indent-props": [2, 4],
         "react/jsx-no-duplicate-props": 2,

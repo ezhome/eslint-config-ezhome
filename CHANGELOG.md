@@ -2,7 +2,6 @@
 ==================
 
 * Update ESLint React rules by:
-  * Adding `react/jsx-closing-bracket-location` rule
   * Adding `react/jsx-curly-spacing` rule
   * Adding `react/jsx-indent-props` rule
   * Adding `react/jsx-no-duplicate-props` rule
