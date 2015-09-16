@@ -1,11 +1,9 @@
 0.3.0 (Unreleased)
 ==================
 
-* Update ESLint React rules by:
-  * Adding `react/jsx-curly-spacing` rule
-  * Adding `react/jsx-indent-props` rule
-  * Adding `react/jsx-no-duplicate-props` rule
-  * Adding `react/jsx-sort-props` rule
+0.3.0-rc1 (2015-09-14)
+----------------------
+
 * Move `ezhome` to `ezhome/base` config. This config should be used to projects
   that still uses ES5.
 * New rules to `ezhome` config:
@@ -16,6 +14,20 @@
 * This adds more ES6/ES2015 taste to our default ESLint configuration.
 * Provide alternate config which enables comma-dangling and uses 2 spaces for
   indent in JS and JSX blocks. This config now available as `ezhome/alternate`.
+
+0.3.0-beta2 (2015-09-05)
+------------------------
+
+* Fixes to previous beta release
+
+0.3.0-beta (2015-09-05)
+-----------------------
+
+* Update ESLint React rules by:
+  * Adding `react/jsx-curly-spacing` rule
+  * Adding `react/jsx-indent-props` rule
+  * Adding `react/jsx-no-duplicate-props` rule
+  * Adding `react/jsx-sort-props` rule
 
 0.2.0 (2015-08-30)
 ==================
