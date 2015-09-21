@@ -1,6 +1,14 @@
 0.3.0 (Unreleased)
 ==================
 
+0.3.0-rc2 (2015-09-21)
+----------------------
+
+* Bump requirements, now `eslint-config-ezhome` requires ESLint 1.5.0 and
+  ESLint React plugin 3.4.2
+* Add new `react/jsx-closing-bracket-location` rule
+* Use `jsx-quotes` instead of `react/jsx-quotes` rule
+
 0.3.0-rc1 (2015-09-14)
 ----------------------
 
