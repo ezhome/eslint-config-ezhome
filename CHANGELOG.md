@@ -1,5 +1,8 @@
-0.3.0 (Unreleased)
+0.3.0 (2015-09-24)
 ==================
+
+Final release after 2 betas and 2 release candidates. No changes compared
+to `0.3.0-rc2`.
 
 0.3.0-rc2 (2015-09-21)
 ----------------------
