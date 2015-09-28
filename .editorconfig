@@ -7,7 +7,7 @@ indent_style = space
 insert_final_newline = true
 trim_trailing_whitespace = true
 
-[{.eslintrc,package.json}]
+[{.eslintrc,circle.yml,package.json}]
 indent_size = 2
 
 [*.js]

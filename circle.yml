@@ -1,0 +1,15 @@
+machine:
+  node:
+    version: 0.12.0
+  timezone:
+    America/Los_Angeles
+
+dependencies:
+  cache_directories:
+    - node_modules
+  override:
+    - make bootstrap
+
+test:
+  override:
+    - make lint
