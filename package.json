@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ezhome",
-  "version": "0.4.0-beta",
+  "version": "0.4.0",
   "description": "Ezhome's ESLint config",
   "main": "index.js",
   "license": "BSD-3-Clause",

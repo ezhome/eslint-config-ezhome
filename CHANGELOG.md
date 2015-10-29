@@ -1,4 +1,4 @@
-0.4.0 (Unreleased)
+0.4.0 (2015-10-29)
 ==================
 
 * Add `react/prefer-es6-class` rule
