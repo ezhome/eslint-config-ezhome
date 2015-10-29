@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ezhome",
-  "version": "0.3.0",
+  "version": "0.4.0-beta",
   "description": "Ezhome's ESLint config",
   "main": "index.js",
   "license": "BSD-3-Clause",
@@ -16,9 +16,8 @@
   },
   "devDependencies": {
     "babel-eslint": "4.1.3",
-    "eslint": "1.5.0",
-    "eslint-plugin-react": "3.4.2",
-    "react": "0.13.3"
+    "eslint": "1.7.3",
+    "eslint-plugin-react": "3.6.3"
   },
   "keywords": [
     "config",
