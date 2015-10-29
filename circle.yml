@@ -1,4 +1,6 @@
 machine:
+  environment:
+    LEVEL: development
   node:
     version: 0.12.0
   timezone:
@@ -8,8 +10,15 @@ dependencies:
   cache_directories:
     - node_modules
   override:
-    - make bootstrap
+    - make
 
 test:
   override:
-    - make lint
+    - make test
+
+deployment:
+  release:
+    tag: /v\d+.\d+.\d+/
+    commands:
+      - ./circle-npm-login.sh
+      - make deploy

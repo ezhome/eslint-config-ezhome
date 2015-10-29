@@ -2,6 +2,7 @@
 ==================
 
 * Add `react/prefer-es6-class` rule
+* List preferred versions for ESLint stack dependencies
 
 0.3.0 (2015-09-24)
 ==================
