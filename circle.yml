@@ -2,7 +2,7 @@ machine:
   environment:
     LEVEL: development
   node:
-    version: 0.12.0
+    version: 0.12.7
   timezone:
     America/Los_Angeles
 
@@ -18,7 +18,7 @@ test:
 
 deployment:
   release:
-    tag: /v\d+.\d+.\d+/
+    tag: /v\d+.\d+.\d+.*/
     commands:
       - ./circle-npm-login.sh
       - make deploy

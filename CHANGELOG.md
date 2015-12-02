@@ -1,7 +1,14 @@
-0.5.0-beta (2015-11-26)
-==================
+0.5.0 (Not Released Yet)
+========================
 
 * Disable `no-eq-null` rule
+* Update ESLint required version to 1.10.3 and ESLint react Plugin to 3.11.2
+* New rules:
+  * `react/jsx-handler-names`
+  * `react/jsx-key`
+  * `react/jsx-max-props-per-line`
+  * `react/jsx-pascal-case`
+  * `react/no-direct-mutation-state`
 
 0.4.0 (2015-10-29)
 ==================
