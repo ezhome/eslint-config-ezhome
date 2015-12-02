@@ -1,24 +1,13 @@
 {
   "name": "eslint-config-ezhome",
-  "version": "0.5.0-beta",
-  "description": "Ezhome's ESLint config",
-  "main": "index.js",
-  "license": "BSD-3-Clause",
+  "version": "0.5.0",
+
   "author": "Igor Davydenko",
   "authorEmail": "igor@ezhome.com",
   "bugs": {
     "url": "https://github.com/ezhome/eslint-config-ezhome/issues"
   },
-  "homepage": "https://github.com/ezhome/eslint-config-ezhome",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ezhome/eslint-config-ezhome"
-  },
-  "devDependencies": {
-    "babel-eslint": "4.1.6",
-    "eslint": "1.10.3",
-    "eslint-plugin-react": "3.11.2"
-  },
+  "description": "Ezhome's ESLint config",
   "keywords": [
     "config",
     "eslint",
@@ -26,6 +15,23 @@
     "ezhome",
     "styleguide"
   ],
+  "main": "index.js",
+  "license": "BSD-3-Clause",
+  "homepage": "https://github.com/ezhome/eslint-config-ezhome",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ezhome/eslint-config-ezhome"
+  },
+
+  "devDependencies": {
+    "babel-eslint": "4.1.6",
+    "eslint": "1.10.3",
+    "eslint-plugin-react": "3.11.2"
+  },
+  "eslintConfig": {
+    "extends": "ezhome/base"
+  },
+
   "scripts": {
     "lint": "eslint ."
   }

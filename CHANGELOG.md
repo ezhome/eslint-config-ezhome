@@ -1,3 +1,12 @@
+0.5.0 (2015-12-02)
+==================
+
+* Moved `react/jsx-handler-names` rule to `ezhome/alternate` config
+* Increase maximum of props for one line in `react/jsx-max-props-per-line` rule
+  to 4
+* Removed `.eslintrc` from the repo, put default config as `eslintConfig`
+  object to `package.json`
+
 0.5.0-beta (2015-12-02)
 =======================
 
