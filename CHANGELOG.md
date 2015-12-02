@@ -1,5 +1,5 @@
-0.5.0 (Not Released Yet)
-========================
+0.5.0-beta (2015-12-02)
+=======================
 
 * Disable `no-eq-null` rule
 * Update ESLint required version to 1.10.3 and ESLint react Plugin to 3.11.2
