@@ -14,9 +14,6 @@ var config = {
         "es6": true,
         "node": true
     },
-    plugins: [
-        "react"
-    ],
 
     rules: {
         "array-bracket-spacing": [2, "never"],
@@ -55,6 +52,9 @@ var config = {
 };
 
 if (utils.reactPluginInstalled) {
+    config.plugins = [
+        "react"
+    ];
     config.rules = objectAssign(config.rules, {
         "react/display-name": 1,
         "react/jsx-closing-bracket-location": [2, "after-props"],

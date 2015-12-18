@@ -1,3 +1,9 @@
+0.6.1 (2015-12-18)
+==================
+
+* Fix config for non-React projects. Do not list `react` plugin if it not
+  installed.
+
 0.6.0 (2015-12-18)
 ==================
 
