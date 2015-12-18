@@ -1,4 +1,7 @@
-module.exports = {
+var objectAssign = require("object-assign");
+var utils = require("./utils");
+
+var config = {
     extends: "eslint:recommended",
     parser: "babel-eslint",
 
@@ -41,6 +44,18 @@ module.exports = {
         "object-curly-spacing": [2, "never"],
         "quotes": [2, "double", "avoid-escape"],
         "radix": 2,
+        "semi": [2, "always"],
+        "space-after-keywords": 2,
+        "space-before-blocks": 2,
+        "space-before-function-paren": [2, "never"],
+        "space-in-parens": [2, "never"],
+        "spaced-comment": [2, "always"],
+        "wrap-regex": 2
+    }
+};
+
+if (utils.reactPluginInstalled) {
+    config.rules = objectAssign(config.rules, {
         "react/display-name": 1,
         "react/jsx-closing-bracket-location": [2, "after-props"],
         "react/jsx-curly-spacing": [2, "never", {"allowMultiline": false}],
@@ -62,13 +77,8 @@ module.exports = {
         "react/prop-types": 2,
         "react/react-in-jsx-scope": 1,
         "react/self-closing-comp": 2,
-        "react/wrap-multilines": 2,
-        "semi": [2, "always"],
-        "space-after-keywords": 2,
-        "space-before-blocks": 2,
-        "space-before-function-paren": [2, "never"],
-        "space-in-parens": [2, "never"],
-        "spaced-comment": [2, "always"],
-        "wrap-regex": 2
-    }
-};
+        "react/wrap-multilines": 2
+    });
+}
+
+module.exports = config;

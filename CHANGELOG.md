@@ -1,3 +1,8 @@
+0.6.0 (2015-12-17)
+==================
+
+* Enable `eslint-plugin-react` rules only if plugin installed and available
+
 0.5.0 (2015-12-02)
 ==================
 

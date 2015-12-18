@@ -15,11 +15,14 @@ This package provides Ezhome's `.eslintrc` as an extensible shared config.
    npm install --save-dev babel-eslint eslint eslint-config-ezhome eslint-plugin-react
    ```
 
+   If your project doesn't use React, you don't need to install
+   `eslint-plugin-react` dev dep.
+
 2. Add `"extends": "ezhome"` to your `.eslintrc`
 
 ### Note on preferred ESLint versions
 
-As of `0.5.0` release, `eslint-config-ezhome` prefers:
+As of `0.6.0` release, `eslint-config-ezhome` prefers:
 
 * `eslint@1.10.3`
 * `babel-eslint@4.1.6`

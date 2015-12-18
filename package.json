@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ezhome",
-  "version": "0.5.0",
+  "version": "0.6.0",
 
   "author": "Igor Davydenko",
   "authorEmail": "igor@ezhome.com",
@@ -23,6 +23,9 @@
     "url": "https://github.com/ezhome/eslint-config-ezhome"
   },
 
+  "dependencies": {
+    "object-assign": "4.0.1"
+  },
   "devDependencies": {
     "babel-eslint": "4.1.6",
     "eslint": "1.10.3",
