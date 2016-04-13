@@ -1,3 +1,8 @@
+1.0.0 (Not Released Yet)
+==================
+
+* Migrate to  node@4.4.3, eslint@2.7.0, babel-eslint@6.0.2 and eslint-plugin-react@4.3.0
+
 0.6.1 (2015-12-18)
 ==================
 

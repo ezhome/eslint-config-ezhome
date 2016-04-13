@@ -22,11 +22,11 @@ This package provides Ezhome's `.eslintrc` as an extensible shared config.
 
 ### Note on preferred ESLint versions
 
-As of `0.6.0` release, `eslint-config-ezhome` prefers:
+As of `1.0.0` release, `eslint-config-ezhome` prefers:
 
-* `eslint@1.10.3`
-* `babel-eslint@4.1.6`
-* `eslint-plugin-react@3.11.2`
+* `eslint@2.7.0`
+* `babel-eslint@6.0.2`
+* `eslint-plugin-react@4.3.0`
 
 You still able to install other versions of ESLint packages, but we recommend
 use versions listed above.
