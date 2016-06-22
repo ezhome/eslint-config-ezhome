@@ -1,7 +1,16 @@
 1.0.0 (Not Released Yet)
-==================
+========================
 
-* Migrate to  node@4.4.3, eslint@2.7.0, babel-eslint@6.0.2 and eslint-plugin-react@4.3.0
+1.0.0-beta.2 (2016-06-22)
+=========================
+
+* Update rules for ternary operator.
+
+1.0.0-beta.1 (2016-05-12)
+=========================
+
+* Migrate to node@4.4.3, eslint@2.9.0, babel-eslint@6.0.2 and
+  eslint-plugin-react@5.1.1
 
 0.6.1 (2015-12-18)
 ==================

@@ -1,3 +1,4 @@
+.install
 node_modules/*
 !node_modules/eslint-config-ezhome
 npm-debug.log
