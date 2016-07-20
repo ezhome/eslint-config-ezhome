@@ -1,6 +1,15 @@
 1.0.0 (Not Released Yet)
 ========================
 
+1.0.0-beta.4 (2016-07-20)
+=========================
+
+* Enable [eslint-plugin-import-order](https://github.com/jfmengels/eslint-plugin-import-order)
+  plugin
+* New rules:
+  * `react/jsx-indent`
+  * `react/no-deprecated`
+
 1.0.0-beta.3 (2016-07-20)
 =========================
 

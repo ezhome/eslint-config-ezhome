@@ -68,9 +68,13 @@ var config = {
     }
 };
 
+if (utils.importOrderPluginInstalled) {
+    config.extends.push("plugin:import-order/recommended");
+    config.plugins.push("import-order");
+}
+
 if (utils.reactPluginInstalled) {
     config.extends.push("plugin:react/recommended");
-
     config.plugins.push("react");
 
     config.rules = objectAssign(config.rules, {
@@ -80,6 +84,7 @@ if (utils.reactPluginInstalled) {
         "react/jsx-equals-spacing": [2, "never"],
         "react/jsx-first-prop-new-line": [2, "multiline"],
         "react/jsx-handler-names": 2,
+        "react/jsx-indent": [2, 4],
         "react/jsx-indent-props": [2, 4],
         "react/jsx-key": 2,
         "react/jsx-max-props-per-line": [2, {"maximum": 4}],
@@ -93,6 +98,7 @@ if (utils.reactPluginInstalled) {
         "react/jsx-uses-vars": 1,
         "react/display-name": 1,
         "react/no-danger": 2,
+        "react/no-deprecated": 2,
         "react/no-did-mount-set-state": [2, "allow-in-func"],
         "react/no-did-update-set-state": [2, "allow-in-func"],
         "react/no-direct-mutation-state": 2,

@@ -9,5 +9,6 @@ var hasModuleInstalled = function(name) {
 };
 
 module.exports = {
+    importOrderPluginInstalled: hasModuleInstalled("esling-plugin-import-order"),
     reactPluginInstalled: hasModuleInstalled("eslint-plugin-react")
 };

@@ -6,6 +6,7 @@ config.rules["indent"] = [2, 2, {"SwitchCase": 1}];
 
 if (utils.reactPluginInstalled) {
     config.rules["react/jsx-handler-names"] = 2;
+    config.rules["react/jsx-indent"] = [2, 2];
     config.rules["react/jsx-indent-props"] = [2, 2];
 }
 
