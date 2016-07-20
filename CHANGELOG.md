@@ -1,6 +1,11 @@
 1.0.0 (Not Released Yet)
 ========================
 
+1.0.0-beta.3 (2016-07-20)
+=========================
+
+* Set maximum line length to 120 characters in alternate config
+
 1.0.0-beta.2 (2016-06-22)
 =========================
 
