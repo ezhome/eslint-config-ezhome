@@ -1,6 +1,15 @@
 1.0.0 (Not Released Yet)
 ========================
 
+1.0.0-beta.5 (2016-07-25)
+=========================
+
+* Require node.js 4 LTS or higher and npm 3 to use `eslint-config-ezhome`
+* Install ESLint dependencies via `package.json`, which results in unnecessary
+  to install them via `devDependencies`
+* New rule to `ezhome/alternate` config:
+  * `react/jsx-no-string-refs`
+
 1.0.0-beta.4 (2016-07-20)
 =========================
 

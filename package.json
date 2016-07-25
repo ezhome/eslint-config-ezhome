@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ezhome",
-  "version": "1.0.0-beta.4",
+  "version": "1.0.0-beta.5",
   "author": "Igor Davydenko",
   "authorEmail": "igor@ezhome.com",
   "bugs": {
@@ -22,13 +22,15 @@
     "url": "https://github.com/ezhome/eslint-config-ezhome"
   },
   "dependencies": {
-    "object-assign": "4.1.0"
-  },
-  "devDependencies": {
     "babel-eslint": "6.1.2",
     "eslint": "3.1.1",
     "eslint-plugin-import-order": "2.1.4",
-    "eslint-plugin-react": "5.2.2"
+    "eslint-plugin-react": "5.2.2",
+    "object-assign": "4.1.0"
+  },
+  "engines": {
+    "node": ">= 4",
+    "npm": ">= 3"
   },
   "eslintConfig": {
     "extends": "ezhome/base/index.js"
