@@ -1,7 +1,12 @@
 1.0.0 (Not Released Yet)
 ========================
 
-1.0.0-beta.5 (2016-07-25)
+1.0.0-beta.6 (2016-07-29)
+=========================
+
+* Fix `react/no-string-refs` rule in `ezhome/alternate` config.
+
+1.0.0-beta.5 (2016-07-29)
 =========================
 
 * Require node.js 4 LTS or higher and npm 3 to use `eslint-config-ezhome`

@@ -8,7 +8,7 @@ if (utils.reactPluginInstalled) {
     config.rules["react/jsx-handler-names"] = 2;
     config.rules["react/jsx-indent"] = [2, 2];
     config.rules["react/jsx-indent-props"] = [2, 2];
-    config.rules["react/jsx-no-string-refs"] = 2;
+    config.rules["react/no-string-refs"] = 2;
 }
 
 module.exports = config;
