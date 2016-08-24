@@ -1,4 +1,3 @@
-var objectAssign = require("object-assign");
 var utils = require("./utils");
 
 var config = {
@@ -47,6 +46,8 @@ var config = {
         "no-empty-function": 2,
         "no-eq-null": 0,
         "no-implicit-globals": 2,
+        "no-irregular-whitespace": 2,
+        "no-multi-spaces": 2,
         "no-multiple-empty-lines": [2, {"max": 2}],
         "no-nested-ternary": 2,
         "no-self-assign": 2,
@@ -55,7 +56,9 @@ var config = {
         "no-unneeded-ternary": 2,
         "no-unused-vars": 2,
         "no-useless-escape": 2,
+        "no-whitespace-before-property": 2,
         "object-curly-spacing": [2, "never"],
+        "operator-linebreak": [2, "after"],
         "prefer-rest-params": 2,
         "quotes": [2, "double", "avoid-escape"],
         "radix": 2,
@@ -68,16 +71,26 @@ var config = {
     }
 };
 
-if (utils.importOrderPluginInstalled) {
-    config.extends.push("plugin:import-order/recommended");
-    config.plugins.push("import-order");
+if (utils.importPluginInstalled) {
+    config.extends.push("plugin:import/errors");
+    config.plugins.push("import");
+
+    config.rules = Object.assign({}, config.rules, {
+        "import/imports-first": 2,
+        "import/newline-after-import": 2,
+        "import/no-amd": 2,
+        "import/no-duplicates": 2,
+        "import/no-restricted-paths": 2,
+        "import/order": [2, {"newlines-between": "always"}],
+        "import/prefer-default-export": 2
+    });
 }
 
 if (utils.reactPluginInstalled) {
     config.extends.push("plugin:react/recommended");
     config.plugins.push("react");
 
-    config.rules = objectAssign(config.rules, {
+    config.rules = Object.assign({}, config.rules, {
         "react/jsx-boolean-value": [2, "never"],
         "react/jsx-closing-bracket-location": [2, "after-props"],
         "react/jsx-curly-spacing": [2, "never", {"allowMultiline": false}],
@@ -96,12 +109,15 @@ if (utils.reactPluginInstalled) {
         "react/jsx-space-before-closing": [2, "always"],
         "react/jsx-uses-react": 1,
         "react/jsx-uses-vars": 1,
+        "react/jsx-wrap-multilines": 2,
         "react/display-name": 1,
         "react/no-danger": 2,
+        "react/no-danger-with-children": 2,
         "react/no-deprecated": 2,
-        "react/no-did-mount-set-state": [2, "allow-in-func"],
-        "react/no-did-update-set-state": [2, "allow-in-func"],
+        "react/no-did-mount-set-state": 2,
+        "react/no-did-update-set-state": 2,
         "react/no-direct-mutation-state": 2,
+        "react/no-find-dom-node": 2,
         "react/no-is-mounted": 2,
         "react/no-multi-comp": 2,
         "react/no-unknown-property": 2,
@@ -147,9 +163,7 @@ if (utils.reactPluginInstalled) {
                 ]
             }
         }],
-        "react/sort-prop-types": [2, {"ignoreCase": true}],
-        "react/wrap-multilines": 2
-
+        "react/sort-prop-types": [2, {"ignoreCase": true}]
     });
 }
 

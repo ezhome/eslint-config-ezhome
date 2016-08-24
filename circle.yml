@@ -2,7 +2,7 @@ machine:
   environment:
     LEVEL: development
   node:
-    version: 4.4.3
+    version: 4.5.0
   timezone:
     America/Los_Angeles
 
@@ -10,6 +10,7 @@ dependencies:
   cache_directories:
     - node_modules
   override:
+    - npm install -g npm@3.10.6
     - make
 
 test:

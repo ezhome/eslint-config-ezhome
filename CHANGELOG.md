@@ -1,6 +1,25 @@
 1.0.0 (Not Released Yet)
 ========================
 
+1.0.0-beta.7 (2016-08-24)
+=========================
+
+* Bump:
+  * `eslint` to `3.3.1`
+  * `eslint-plugin-react` to `6.1.2`
+* New rules:
+  * `no-irregular-whitespace`
+  * `no-multi-spaces`
+  * `no-whitespace-before-property`
+  * `operator-linebreak`
+  * `react/no-find-dom-node`
+  * `react/no-danger-with-children`
+* Integrate [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)
+  as it more powerful then `eslint-plugin-import-order`
+* Disable `eslint-plugin-import-order`
+* Remove `object-assign` from project dependencies
+* Move to node.js `v4.5.0` for development
+
 1.0.0-beta.6 (2016-07-29)
 =========================
 
