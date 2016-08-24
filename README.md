@@ -22,7 +22,15 @@ As of `1.0.0` release `eslint-config-ezhome` requires,
    npm install --save-dev eslint-config-ezhome
    ```
 
-2. Add `"extends": "ezhome"` to your `.eslintrc`
+2. Add next snippet,
+
+   ```
+     "eslintConfig": {
+       "extends": "ezhome"
+     }
+   ```
+
+   to your `package.json`
 
 ### Note on preferred ESLint versions
 
@@ -47,4 +55,4 @@ config.
 ### ezhome/alternate
 
 Alternate config which provides comma-dangling and uses 2 spaces for indent in
-JS and JSX files. Good config to new projects.
+JS and JSX code. Good config for new projects.
