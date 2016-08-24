@@ -28,10 +28,10 @@ As of `1.0.0` release `eslint-config-ezhome` requires,
 
 As of `1.0.0` release, `eslint-config-ezhome` installs:
 
-* `eslint@3.1.1`
+* `eslint@3.3.1`
 * `babel-eslint@6.1.2`
-* `eslint-plugin-import-order@2.1.4`
-* `eslint-plugin-react@5.2.2`
+* `eslint-plugin-import@1.14.0`
+* `eslint-plugin-react@6.1.2`
 
 as its requirements. You still able to install other versions of ESLint
 packages, but we recommend use versions listed above.
