@@ -71,19 +71,9 @@ var config = {
     }
 };
 
-if (utils.importPluginInstalled) {
-    config.extends.push("plugin:import/errors");
-    config.plugins.push("import");
-
-    config.rules = Object.assign({}, config.rules, {
-        "import/imports-first": 2,
-        "import/newline-after-import": 2,
-        "import/no-amd": 2,
-        "import/no-duplicates": 2,
-        "import/no-restricted-paths": 2,
-        "import/order": [2, {"newlines-between": "always"}],
-        "import/prefer-default-export": 2
-    });
+if (utils.importOrderPluginInstalled) {
+    config.extends.push("plugin:import-order/recommended");
+    config.plugins.push("import-order");
 }
 
 if (utils.reactPluginInstalled) {

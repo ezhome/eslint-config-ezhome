@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ezhome",
-  "version": "1.0.0-beta.7",
+  "version": "1.0.0-beta.8",
   "author": "Ezhome Engineers",
   "authorEmail": "engineers@ezhome.com",
   "bugs": {
@@ -24,7 +24,7 @@
   "dependencies": {
     "babel-eslint": "6.1.2",
     "eslint": "3.3.1",
-    "eslint-plugin-import": "1.14.0",
+    "eslint-plugin-import-order": "2.1.4",
     "eslint-plugin-react": "6.1.2"
   },
   "engines": {
