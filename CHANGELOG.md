@@ -1,5 +1,16 @@
 # 1.0.0 (Not Released Yet)
 
+## 1.0.0-rc.1 (2016-10-22)
+
+* Make `eslint` `peerDependency` to ensure it been installed in `npm bin` with
+  `npm` or `yarn`
+* Bump:
+  * `babel-eslint` to `7.0.0`
+  * `eslint-plugin-react` to `6.4.1`
+* New rules:
+  * `react/no-children-prop`
+  * `react/no-unused-prop-types`
+
 ## 1.0.0-beta.8 (2016-08-24)
 
 * Disable `eslint-plugin-import` as it breaks Sublime Text & Atom ESLint

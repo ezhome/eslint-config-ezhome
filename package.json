@@ -1,8 +1,8 @@
 {
   "name": "eslint-config-ezhome",
-  "version": "1.0.0-beta.8",
-  "author": "Ezhome Engineers",
-  "authorEmail": "engineers@ezhome.com",
+  "version": "1.0.0-rc.1",
+  "author": "Ezhome Engineering",
+  "authorEmail": "engineering@ezhome.com",
   "bugs": {
     "url": "https://github.com/ezhome/eslint-config-ezhome/issues"
   },
@@ -22,10 +22,15 @@
     "url": "https://github.com/ezhome/eslint-config-ezhome"
   },
   "dependencies": {
-    "babel-eslint": "6.1.2",
-    "eslint": "3.3.1",
+    "babel-eslint": "7.0.0",
     "eslint-plugin-import-order": "2.1.4",
-    "eslint-plugin-react": "6.1.2"
+    "eslint-plugin-react": "6.4.1"
+  },
+  "devDependencies": {
+    "eslint": "3.8.1"
+  },
+  "peerDependencies": {
+    "eslint": ">=3.8.1"
   },
   "engines": {
     "node": ">= 4",
